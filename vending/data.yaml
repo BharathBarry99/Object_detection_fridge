@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 32
+names: ['Payment_card', 'Payment_coins', 'candy_gummies', 'chips', 'chocolate', 'chocolate_bar', 'coke_pepsi_b_diet', 'coke_pepsi_c', 'coke_pepsi_c_diet', 'coke_pepsi_diet_t', 'coke_pepsi_t', 'coke_pespi_b', 'cookies', 'crackers', 'drink_VM', 'drinks_close_VM', 'drinks_snacks_VM', 'drop_off', 'energetic_drink', 'energetic_drink_c', 'juice', 'nuts', 'orange_soda_b', 'orange_soda_c', 'orange_soda_t', 'sandwish', 'selection_code', 'soda_b', 'soda_c', 'tea', 'water', 'water_t']
+
+roboflow:
+  workspace: kreyes
+  project: vending_junetrial
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kreyes/vending_junetrial/dataset/6
